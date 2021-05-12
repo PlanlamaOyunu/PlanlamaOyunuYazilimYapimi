@@ -46,11 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Entitys\Talep.cs" />
     <Compile Include="Entitys\Urun.cs" />
-=======
->>>>>>> 8600fc4903085aa61567d83f545a6446bd109905
     <Compile Include="Forms\AdminMenuFrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,15 +74,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <Compile Include="SqlQuerys\AdminFrmQuerys.cs" />
     <Compile Include="SqlQuerys\GirisKayitFrmQuerys.cs" />
     <EmbeddedResource Include="Forms\AdminMenuFrm.resx">
       <DependentUpon>AdminMenuFrm.cs</DependentUpon>
     </EmbeddedResource>
-=======
     <Compile Include="SqlQuerys\GirisKayitFrmQuerys.cs" />
->>>>>>> 8600fc4903085aa61567d83f545a6446bd109905
     <EmbeddedResource Include="Forms\GirisKayitFrm.resx">
       <DependentUpon>GirisKayitFrm.cs</DependentUpon>
     </EmbeddedResource>
