@@ -75,7 +75,10 @@ namespace PlanlamaOyunuYazilimYapimi
             this.btnKayitOl.TabIndex = 18;
             this.btnKayitOl.Text = "Kayıt Ol";
             this.btnKayitOl.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnKayitOl.Click += new System.EventHandler(this.btnKayitOl_Click);
+=======
+>>>>>>> 8600fc4903085aa61567d83f545a6446bd109905
             // 
             // rBtnSatici
             // 
@@ -176,7 +179,10 @@ namespace PlanlamaOyunuYazilimYapimi
             // 
             this.txtBoxKayitSifre.Location = new System.Drawing.Point(148, 124);
             this.txtBoxKayitSifre.Name = "txtBoxKayitSifre";
+<<<<<<< HEAD
             this.txtBoxKayitSifre.PasswordChar = '*';
+=======
+>>>>>>> 8600fc4903085aa61567d83f545a6446bd109905
             this.txtBoxKayitSifre.Size = new System.Drawing.Size(100, 20);
             this.txtBoxKayitSifre.TabIndex = 7;
             // 
@@ -256,7 +262,10 @@ namespace PlanlamaOyunuYazilimYapimi
             // 
             this.txtBoxGirisSifre.Location = new System.Drawing.Point(262, 123);
             this.txtBoxGirisSifre.Name = "txtBoxGirisSifre";
+<<<<<<< HEAD
             this.txtBoxGirisSifre.PasswordChar = '*';
+=======
+>>>>>>> 8600fc4903085aa61567d83f545a6446bd109905
             this.txtBoxGirisSifre.Size = new System.Drawing.Size(100, 20);
             this.txtBoxGirisSifre.TabIndex = 1;
             // 
@@ -366,7 +375,10 @@ namespace PlanlamaOyunuYazilimYapimi
             // 
             // GirisKayitFrm
             // 
+<<<<<<< HEAD
             this.AcceptButton = this.btnGirisYap;
+=======
+>>>>>>> 8600fc4903085aa61567d83f545a6446bd109905
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(525, 313);

@@ -30,6 +30,7 @@ namespace PlanlamaOyunuYazilimYapimi.Forms
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+<<<<<<< HEAD
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminMenuFrm));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -384,5 +385,13 @@ namespace PlanlamaOyunuYazilimYapimi.Forms
         private System.Windows.Forms.DataGridViewTextBoxColumn urunKg;
         private System.Windows.Forms.DataGridViewTextBoxColumn urunKgFiyat;
         private System.Windows.Forms.DataGridViewCheckBoxColumn urunOnay;
+=======
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "AdminMenuFrm";
+        }
+
+        #endregion
+>>>>>>> 8600fc4903085aa61567d83f545a6446bd109905
     }
 }
