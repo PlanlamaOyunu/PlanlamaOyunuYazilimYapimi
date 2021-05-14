@@ -26,8 +26,7 @@ namespace PlanlamaOyunuYazilimYapimi.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-10GH1IP\\MSSQL;Initial Catalog=Planlama;Integrated Security=Tr" +
-            "ue")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-LUK6BDU;Initial Catalog=Planlama;Integrated Security=True")]
         public string SqlString {
             get {
                 return ((string)(this["SqlString"]));

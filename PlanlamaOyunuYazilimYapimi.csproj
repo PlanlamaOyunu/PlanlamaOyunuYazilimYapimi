@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entitys\Kullanici.cs" />
     <Compile Include="Entitys\SatinAlim.cs" />
     <Compile Include="Entitys\Talep.cs" />
     <Compile Include="Entitys\Urun.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlQuerys\AdminFrmQuerys.cs" />
+    <Compile Include="SqlQuerys\AliciSorgulari.cs" />
     <Compile Include="SqlQuerys\GirisKayitFrmQuerys.cs" />
     <Compile Include="SqlQuerys\SaticiSorgulari.cs" />
     <EmbeddedResource Include="Forms\AdminMenuFrm.resx">
