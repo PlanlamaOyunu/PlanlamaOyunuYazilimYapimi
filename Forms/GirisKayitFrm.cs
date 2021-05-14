@@ -39,7 +39,7 @@ namespace PlanlamaOyunuYazilimYapimi
                             this.Hide();
                             AliciMenuFrm aliciMenuFrm = new AliciMenuFrm();
                             aliciMenuFrm.StartPosition = FormStartPosition.CenterScreen;
-                            aliciMenuFrm.alici.kullaniciAdi = txtBoxGirisKullaniciAdi.Text;
+                            //aliciMenuFrm.alici.kullaniciAdi = txtBoxGirisKullaniciAdi.Text;
                             aliciMenuFrm.Closed += (s, args) => this.Close();
                             aliciMenuFrm.Show();
                         }

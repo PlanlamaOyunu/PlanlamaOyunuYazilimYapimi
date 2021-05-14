@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entitys\SatinAlim.cs" />
     <Compile Include="Entitys\Talep.cs" />
     <Compile Include="Entitys\Urun.cs" />
     <Compile Include="Forms\AdminMenuFrm.cs">
@@ -72,16 +73,23 @@
     <Compile Include="Forms\SaticiMenuFrm.Designer.cs">
       <DependentUpon>SaticiMenuFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Functions\TextBoxKisitlama.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlQuerys\AdminFrmQuerys.cs" />
     <Compile Include="SqlQuerys\GirisKayitFrmQuerys.cs" />
+    <Compile Include="SqlQuerys\SaticiSorgulari.cs" />
     <EmbeddedResource Include="Forms\AdminMenuFrm.resx">
       <DependentUpon>AdminMenuFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <Compile Include="SqlQuerys\GirisKayitFrmQuerys.cs" />
+    <EmbeddedResource Include="Forms\AliciMenuFrm.resx">
+      <DependentUpon>AliciMenuFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\GirisKayitFrm.resx">
       <DependentUpon>GirisKayitFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaticiMenuFrm.resx">
+      <DependentUpon>SaticiMenuFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

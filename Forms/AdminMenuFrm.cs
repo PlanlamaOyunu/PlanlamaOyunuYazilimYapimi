@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-﻿using PlanlamaOyunuYazilimYapimi.Entitys;
+using PlanlamaOyunuYazilimYapimi.Entitys;
 using PlanlamaOyunuYazilimYapimi.SqlQuerys;
 using System;
-=======
-﻿using System;
->>>>>>> 8600fc4903085aa61567d83f545a6446bd109905
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,7 +18,6 @@ namespace PlanlamaOyunuYazilimYapimi.Forms
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
         AdminFrmQuerys admnFrmQrys = new AdminFrmQuerys();
         List<Urun> urnlr = new List<Urun>();
         List<Talep> prTlplr = new List<Talep>();
@@ -134,7 +129,5 @@ namespace PlanlamaOyunuYazilimYapimi.Forms
             prTlplr = admnFrmQrys.getAllParaTalep();
             dataGridViewParaTalepListele(prTlplr);
         }
-=======
->>>>>>> 8600fc4903085aa61567d83f545a6446bd109905
     }
 }
