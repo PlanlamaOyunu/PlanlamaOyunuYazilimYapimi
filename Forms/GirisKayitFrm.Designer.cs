@@ -58,23 +58,27 @@ namespace PlanlamaOyunuYazilimYapimi
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageGiris = new System.Windows.Forms.TabPage();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabPageKayit = new System.Windows.Forms.TabPage();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPageGiris.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabPageKayit.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnKayitOl
             // 
+            this.btnKayitOl.BackColor = System.Drawing.Color.SeaGreen;
             this.btnKayitOl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKayitOl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnKayitOl.Location = new System.Drawing.Point(165, 203);
             this.btnKayitOl.Name = "btnKayitOl";
             this.btnKayitOl.Size = new System.Drawing.Size(172, 49);
             this.btnKayitOl.TabIndex = 18;
             this.btnKayitOl.Text = "Kayıt Ol";
-            this.btnKayitOl.UseVisualStyleBackColor = true;
+            this.btnKayitOl.UseVisualStyleBackColor = false;
             this.btnKayitOl.Click += new System.EventHandler(this.btnKayitOl_Click);
             // 
             // rBtnSatici
@@ -123,7 +127,7 @@ namespace PlanlamaOyunuYazilimYapimi
             // 
             this.txtBoxKayitEmail.Location = new System.Drawing.Point(370, 64);
             this.txtBoxKayitEmail.Name = "txtBoxKayitEmail";
-            this.txtBoxKayitEmail.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxKayitEmail.Size = new System.Drawing.Size(100, 23);
             this.txtBoxKayitEmail.TabIndex = 13;
             // 
             // label9
@@ -141,7 +145,7 @@ namespace PlanlamaOyunuYazilimYapimi
             this.txtBoxKayitTelefonNo.Location = new System.Drawing.Point(370, 34);
             this.txtBoxKayitTelefonNo.Mask = "(999) 000-0000";
             this.txtBoxKayitTelefonNo.Name = "txtBoxKayitTelefonNo";
-            this.txtBoxKayitTelefonNo.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxKayitTelefonNo.Size = new System.Drawing.Size(100, 23);
             this.txtBoxKayitTelefonNo.TabIndex = 11;
             // 
             // label8
@@ -159,7 +163,7 @@ namespace PlanlamaOyunuYazilimYapimi
             this.txtBoxKayitTcNo.Location = new System.Drawing.Point(148, 154);
             this.txtBoxKayitTcNo.Mask = "00000000000";
             this.txtBoxKayitTcNo.Name = "txtBoxKayitTcNo";
-            this.txtBoxKayitTcNo.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxKayitTcNo.Size = new System.Drawing.Size(100, 23);
             this.txtBoxKayitTcNo.TabIndex = 9;
             // 
             // label7
@@ -177,7 +181,7 @@ namespace PlanlamaOyunuYazilimYapimi
             this.txtBoxKayitSifre.Location = new System.Drawing.Point(148, 124);
             this.txtBoxKayitSifre.Name = "txtBoxKayitSifre";
             this.txtBoxKayitSifre.PasswordChar = '*';
-            this.txtBoxKayitSifre.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxKayitSifre.Size = new System.Drawing.Size(100, 23);
             this.txtBoxKayitSifre.TabIndex = 7;
             // 
             // label6
@@ -194,7 +198,7 @@ namespace PlanlamaOyunuYazilimYapimi
             // 
             this.txtBoxKayitKullaniciAdi.Location = new System.Drawing.Point(148, 94);
             this.txtBoxKayitKullaniciAdi.Name = "txtBoxKayitKullaniciAdi";
-            this.txtBoxKayitKullaniciAdi.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxKayitKullaniciAdi.Size = new System.Drawing.Size(100, 23);
             this.txtBoxKayitKullaniciAdi.TabIndex = 5;
             // 
             // label5
@@ -211,7 +215,7 @@ namespace PlanlamaOyunuYazilimYapimi
             // 
             this.txtBoxKayitSoyad.Location = new System.Drawing.Point(148, 64);
             this.txtBoxKayitSoyad.Name = "txtBoxKayitSoyad";
-            this.txtBoxKayitSoyad.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxKayitSoyad.Size = new System.Drawing.Size(100, 23);
             this.txtBoxKayitSoyad.TabIndex = 3;
             // 
             // label4
@@ -228,7 +232,7 @@ namespace PlanlamaOyunuYazilimYapimi
             // 
             this.txtBoxKayitAd.Location = new System.Drawing.Point(148, 34);
             this.txtBoxKayitAd.Name = "txtBoxKayitAd";
-            this.txtBoxKayitAd.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxKayitAd.Size = new System.Drawing.Size(100, 23);
             this.txtBoxKayitAd.TabIndex = 1;
             // 
             // label3
@@ -243,35 +247,37 @@ namespace PlanlamaOyunuYazilimYapimi
             // 
             // btnGirisYap
             // 
+            this.btnGirisYap.BackColor = System.Drawing.Color.SeaGreen;
             this.btnGirisYap.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.btnGirisYap.Location = new System.Drawing.Point(164, 167);
+            this.btnGirisYap.ForeColor = System.Drawing.Color.Snow;
+            this.btnGirisYap.Location = new System.Drawing.Point(172, 208);
             this.btnGirisYap.Name = "btnGirisYap";
             this.btnGirisYap.Size = new System.Drawing.Size(172, 49);
             this.btnGirisYap.TabIndex = 2;
             this.btnGirisYap.Text = "Giriş";
-            this.btnGirisYap.UseVisualStyleBackColor = true;
+            this.btnGirisYap.UseVisualStyleBackColor = false;
             this.btnGirisYap.Click += new System.EventHandler(this.btnGirisYap_Click);
             // 
             // txtBoxGirisSifre
             // 
-            this.txtBoxGirisSifre.Location = new System.Drawing.Point(262, 123);
+            this.txtBoxGirisSifre.Location = new System.Drawing.Point(270, 164);
             this.txtBoxGirisSifre.Name = "txtBoxGirisSifre";
             this.txtBoxGirisSifre.PasswordChar = '*';
-            this.txtBoxGirisSifre.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxGirisSifre.Size = new System.Drawing.Size(100, 23);
             this.txtBoxGirisSifre.TabIndex = 1;
             // 
             // txtBoxGirisKullaniciAdi
             // 
-            this.txtBoxGirisKullaniciAdi.Location = new System.Drawing.Point(262, 77);
+            this.txtBoxGirisKullaniciAdi.Location = new System.Drawing.Point(270, 118);
             this.txtBoxGirisKullaniciAdi.Name = "txtBoxGirisKullaniciAdi";
-            this.txtBoxGirisKullaniciAdi.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxGirisKullaniciAdi.Size = new System.Drawing.Size(100, 23);
             this.txtBoxGirisKullaniciAdi.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(213, 125);
+            this.label2.Location = new System.Drawing.Point(221, 166);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 18);
             this.label2.TabIndex = 3;
@@ -280,7 +286,7 @@ namespace PlanlamaOyunuYazilimYapimi
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(109, 113);
+            this.pictureBox2.Location = new System.Drawing.Point(117, 154);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(40, 40);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -291,7 +297,7 @@ namespace PlanlamaOyunuYazilimYapimi
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(152, 79);
+            this.label1.Location = new System.Drawing.Point(160, 120);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(104, 18);
             this.label1.TabIndex = 1;
@@ -300,7 +306,7 @@ namespace PlanlamaOyunuYazilimYapimi
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(109, 67);
+            this.pictureBox1.Location = new System.Drawing.Point(117, 108);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(40, 40);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -312,6 +318,7 @@ namespace PlanlamaOyunuYazilimYapimi
             this.tabControl1.Controls.Add(this.tabPageGiris);
             this.tabControl1.Controls.Add(this.tabPageKayit);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -320,6 +327,8 @@ namespace PlanlamaOyunuYazilimYapimi
             // 
             // tabPageGiris
             // 
+            this.tabPageGiris.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.tabPageGiris.Controls.Add(this.pictureBox3);
             this.tabPageGiris.Controls.Add(this.btnGirisYap);
             this.tabPageGiris.Controls.Add(this.txtBoxGirisSifre);
             this.tabPageGiris.Controls.Add(this.txtBoxGirisKullaniciAdi);
@@ -327,16 +336,26 @@ namespace PlanlamaOyunuYazilimYapimi
             this.tabPageGiris.Controls.Add(this.pictureBox2);
             this.tabPageGiris.Controls.Add(this.label1);
             this.tabPageGiris.Controls.Add(this.pictureBox1);
-            this.tabPageGiris.Location = new System.Drawing.Point(4, 22);
+            this.tabPageGiris.Location = new System.Drawing.Point(4, 25);
             this.tabPageGiris.Name = "tabPageGiris";
             this.tabPageGiris.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageGiris.Size = new System.Drawing.Size(517, 287);
+            this.tabPageGiris.Size = new System.Drawing.Size(517, 284);
             this.tabPageGiris.TabIndex = 0;
             this.tabPageGiris.Text = "Giriş Yap";
-            this.tabPageGiris.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(163, 6);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(194, 69);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
             // 
             // tabPageKayit
             // 
+            this.tabPageKayit.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.tabPageKayit.Controls.Add(this.btnKayitOl);
             this.tabPageKayit.Controls.Add(this.rBtnSatici);
             this.tabPageKayit.Controls.Add(this.rBtnAlici);
@@ -356,19 +375,19 @@ namespace PlanlamaOyunuYazilimYapimi
             this.tabPageKayit.Controls.Add(this.label4);
             this.tabPageKayit.Controls.Add(this.txtBoxKayitAd);
             this.tabPageKayit.Controls.Add(this.label3);
-            this.tabPageKayit.Location = new System.Drawing.Point(4, 22);
+            this.tabPageKayit.Location = new System.Drawing.Point(4, 25);
             this.tabPageKayit.Name = "tabPageKayit";
             this.tabPageKayit.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageKayit.Size = new System.Drawing.Size(517, 287);
+            this.tabPageKayit.Size = new System.Drawing.Size(517, 284);
             this.tabPageKayit.TabIndex = 1;
             this.tabPageKayit.Text = "Kayıt Ol";
-            this.tabPageKayit.UseVisualStyleBackColor = true;
             // 
             // GirisKayitFrm
             // 
             this.AcceptButton = this.btnGirisYap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(525, 313);
             this.Controls.Add(this.tabControl1);
             this.Name = "GirisKayitFrm";
@@ -379,6 +398,7 @@ namespace PlanlamaOyunuYazilimYapimi
             this.tabControl1.ResumeLayout(false);
             this.tabPageGiris.ResumeLayout(false);
             this.tabPageGiris.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPageKayit.ResumeLayout(false);
             this.tabPageKayit.PerformLayout();
             this.ResumeLayout(false);
@@ -416,6 +436,7 @@ namespace PlanlamaOyunuYazilimYapimi
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPageGiris;
         private System.Windows.Forms.TabPage tabPageKayit;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 
