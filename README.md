@@ -42,6 +42,19 @@ Alıcı bu ekranda daha önceden verdiği siparişleri görebilir.
 
 ![Gecmis Islem](https://media.giphy.com/media/Hof6SUAZuophox6rAT/giphy.gif)
 
+### :busts_in_silhouette: Admin
+Admin bu ekranda gelen yeni ürün taleplerini görür ve istediği ürünleri onaylar.
+
+![Urun Onay](https://media.giphy.com/media/CkTcI7L9LZe4ZDdy9V/giphy.gif)
+
+Admin onayladığı ürünleri istediği zaman iptal edebilir.
+
+![Urun Onay Iptal](https://media.giphy.com/media/M9bFQ4nO8HN70Jg8hC/giphy.gif)
+
+Admin bu ekranda gelen para taleplerini görür, istediği talebi onaylar ve istediği talebi reddedebilir.
+
+![Para Onay](https://media.giphy.com/media/FpquYn6MRrY8V8AFKu/giphy.gif)
+
 ## Deployment
 ### Built With
 ```
